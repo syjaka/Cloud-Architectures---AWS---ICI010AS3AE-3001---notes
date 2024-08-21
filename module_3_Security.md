@@ -6,7 +6,7 @@
 
 
 -   Design principles
-1.  Implement a strong identity foundation. - eg. least priviledge, centralized id management.
+1.  Implement a strong identity foundation. - The principle of least privilege is a key factor Also centralized id management etc...
 >  > - Grant only the permissions that are required to perform a task.
 >  > - Start with a minimum set of permissions.
 >  > - Grant additional permissions as necessary.
@@ -35,3 +35,7 @@
 7. Automate security best practices
 >  > - Automated security mechanisms enhance the ability to securely scale quickly and cost-effectively.
 >  >   This involves creating secure architectures with controls defined and managed as code in version-controlled templates.
+
+
+Authenticating and securing access
+- Distinguis the difference between authentication and authorization
