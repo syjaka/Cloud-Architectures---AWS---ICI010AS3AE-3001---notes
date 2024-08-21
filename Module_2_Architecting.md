@@ -196,6 +196,9 @@ Securing your entire infrastructure
 - AWS uses custom network equipment from multiple original device manufacturers (ODMs).
 - CloudFront's global network includes 410+ PoPs, with 400 edge locations and 13 regional mid-tier caches for reduced latency.
 - Edge locations and regional edge caches optimize content delivery, with support for services like Amazon Route 53 and AWS Global Accelerator.
+
+All material cathered from AWS academy course. Picture below a snapshot from Pekka Korpi-Tassi lecture.
+
 A large architecture:
 <img width="794" alt="image" src="https://github.com/user-attachments/assets/9c5ef1b7-3d84-4d43-8b04-e1aa6b90c7fc">
 
