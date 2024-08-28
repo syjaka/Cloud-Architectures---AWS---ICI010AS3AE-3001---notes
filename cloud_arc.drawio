@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-08-28T07:38:03.152Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="IvDmtCUGPVHsFbwXSfEn" version="24.0.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-08-28T07:38:43.430Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="HmS9VoMzdFdSggKhDW9x" version="24.0.5" type="github" pages="2">
   <diagram name="Sivu-1" id="L24YR4mxjg8pdM1JmiOZ">
-    <mxGraphModel dx="2235" dy="2326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4521" dy="2326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,6 +87,9 @@
         </mxCell>
         <mxCell id="JYpF7NDxPvWHbW9yyKpU-13" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;Using S3&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="wOVYKrJNmB9qR2LeFTkK-24" vertex="1">
           <mxGeometry x="27.5" width="215" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wOVYKrJNmB9qR2LeFTkK-26" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="960" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
