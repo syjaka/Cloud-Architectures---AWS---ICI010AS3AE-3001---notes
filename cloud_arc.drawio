@@ -1,26 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2024-08-27T15:16:13.213Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="ou91MOYcIJSVtPTulOxR" version="24.0.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-08-28T07:38:03.152Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="IvDmtCUGPVHsFbwXSfEn" version="24.0.5" type="github" pages="2">
   <diagram name="Sivu-1" id="L24YR4mxjg8pdM1JmiOZ">
-    <mxGraphModel dx="1628" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2235" dy="2326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JYpF7NDxPvWHbW9yyKpU-20" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="530" y="30" width="270" height="340" as="geometry" />
+        <mxCell id="wOVYKrJNmB9qR2LeFTkK-25" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-60" y="20" width="1491" height="1330" as="geometry" />
         </mxCell>
-        <mxCell id="JYpF7NDxPvWHbW9yyKpU-19" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="JYpF7NDxPvWHbW9yyKpU-20" vertex="1">
-          <mxGeometry width="270" height="340" as="geometry" />
-        </mxCell>
-        <mxCell id="JYpF7NDxPvWHbW9yyKpU-15" value="&lt;span style=&quot;font-size: 12px; background-color: initial;&quot;&gt;Spikes in Demand&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;ul&gt;&lt;li&gt;Scales as spikes occur&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Static sites&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;As websites&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Financial analysis&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Raw data that other services use for analysis&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Disaster rec&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Data backup and disaster recovery&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="JYpF7NDxPvWHbW9yyKpU-20" vertex="1">
-          <mxGeometry x="30" y="30" width="190" height="310" as="geometry" />
-        </mxCell>
-        <mxCell id="JYpF7NDxPvWHbW9yyKpU-13" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;Using S3&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="JYpF7NDxPvWHbW9yyKpU-20" vertex="1">
-          <mxGeometry x="17.5" y="10" width="215" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="JYpF7NDxPvWHbW9yyKpU-22" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="-60" y="20" width="569" height="640" as="geometry" />
+        <mxCell id="JYpF7NDxPvWHbW9yyKpU-22" value="" style="group" parent="wOVYKrJNmB9qR2LeFTkK-25" vertex="1" connectable="0">
+          <mxGeometry width="580" height="640" as="geometry" />
         </mxCell>
         <mxCell id="JYpF7NDxPvWHbW9yyKpU-18" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;container=0;" parent="JYpF7NDxPvWHbW9yyKpU-22" vertex="1">
-          <mxGeometry width="569" height="580" as="geometry" />
+          <mxGeometry width="580" height="580" as="geometry" />
         </mxCell>
         <mxCell id="JYpF7NDxPvWHbW9yyKpU-1" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;Defining S3&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;container=0;" parent="JYpF7NDxPvWHbW9yyKpU-22" vertex="1">
           <mxGeometry x="84.5" y="10" width="400" height="60" as="geometry" />
@@ -35,7 +26,7 @@
           <mxGeometry x="39" y="120" width="62" height="78" as="geometry" />
         </mxCell>
         <mxCell id="JYpF7NDxPvWHbW9yyKpU-10" value="&lt;span style=&quot;color: rgb(35, 47, 62); font-size: 12px; text-wrap: nowrap;&quot;&gt;Object Storage - S3&lt;/span&gt;&lt;div style=&quot;color: rgb(35, 47, 62); font-size: 12px; text-wrap: nowrap;&quot;&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;Data is stored in files as objects - the fundamental entity&lt;/li&gt;&lt;li&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Container for objects is bucket&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;eg. Dropbox is as&lt;/li&gt;&lt;li&gt;data as mails, pics, messages, movies...&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Massive amounts unsrtuctured data&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Flat structure - prefixes allow folder structure&lt;/li&gt;&lt;li style=&quot;&quot;&gt;All objects has unique URL (inc. rgion, bucket name etc..)&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Also other unique stuff as metadata&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Benefits&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Durable&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Data is not lost&lt;/li&gt;&lt;li&gt;standard storage 11 nines%&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Available&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Acces when needed&lt;/li&gt;&lt;li&gt;Unlimited capacity&lt;/li&gt;&lt;li&gt;Available 4 nines%&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;High performance&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Automatic scaling&lt;/li&gt;&lt;li&gt;1000&#39;nd trans per sec as up or downloading from or to&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;container=0;" parent="JYpF7NDxPvWHbW9yyKpU-22" vertex="1">
-          <mxGeometry x="169" y="180" width="391" height="410" as="geometry" />
+          <mxGeometry x="180" y="170" width="411" height="400" as="geometry" />
         </mxCell>
         <mxCell id="JYpF7NDxPvWHbW9yyKpU-11" value="Other types" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;container=0;" parent="JYpF7NDxPvWHbW9yyKpU-22" vertex="1">
           <mxGeometry y="70" width="140" height="20" as="geometry" />
@@ -43,10 +34,10 @@
         <mxCell id="JYpF7NDxPvWHbW9yyKpU-12" value="S3" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;container=0;" parent="JYpF7NDxPvWHbW9yyKpU-22" vertex="1">
           <mxGeometry x="169" y="70" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wOVYKrJNmB9qR2LeFTkK-3" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-50" y="600" width="569" height="710" as="geometry" />
+        <mxCell id="wOVYKrJNmB9qR2LeFTkK-3" value="" style="group" vertex="1" connectable="0" parent="wOVYKrJNmB9qR2LeFTkK-25">
+          <mxGeometry x="580" width="569" height="710" as="geometry" />
         </mxCell>
-        <mxCell id="wOVYKrJNmB9qR2LeFTkK-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;container=0;" vertex="1" parent="wOVYKrJNmB9qR2LeFTkK-3">
+        <mxCell id="wOVYKrJNmB9qR2LeFTkK-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;container=0;arcSize=16;" vertex="1" parent="wOVYKrJNmB9qR2LeFTkK-3">
           <mxGeometry width="569" height="710" as="geometry" />
         </mxCell>
         <mxCell id="JYpF7NDxPvWHbW9yyKpU-23" value="Moving data in and out of S3" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" parent="wOVYKrJNmB9qR2LeFTkK-3" vertex="1">
@@ -58,8 +49,44 @@
         <mxCell id="wOVYKrJNmB9qR2LeFTkK-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="wOVYKrJNmB9qR2LeFTkK-3" source="JYpF7NDxPvWHbW9yyKpU-24" target="JYpF7NDxPvWHbW9yyKpU-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wOVYKrJNmB9qR2LeFTkK-4" value="Storing content with S3" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" vertex="1" parent="1">
-          <mxGeometry x="570" y="640" width="380" height="30" as="geometry" />
+        <mxCell id="wOVYKrJNmB9qR2LeFTkK-19" value="" style="group" vertex="1" connectable="0" parent="wOVYKrJNmB9qR2LeFTkK-25">
+          <mxGeometry y="580" width="461" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="wOVYKrJNmB9qR2LeFTkK-18" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;container=0;arcSize=16;" vertex="1" parent="wOVYKrJNmB9qR2LeFTkK-19">
+          <mxGeometry width="461" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="wOVYKrJNmB9qR2LeFTkK-12" value="S3 Default security conf&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 12px; text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px; text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Against unwanted access and accidental data loss&lt;/span&gt;&lt;/div&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;font-size: 12px; text-align: left;&quot;&gt;Private and protected as a default&lt;/li&gt;&lt;li style=&quot;font-size: 12px; text-align: left;&quot;&gt;Encryption configured as default&lt;/li&gt;&lt;li style=&quot;font-size: 12px; text-align: left;&quot;&gt;When allowind access:&lt;/li&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;text-align: left;&quot;&gt;add access&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;use least possible principle&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Encryptting in S3 are by default&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Server and client side encryption&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Different tools available for protecting&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Block public access&lt;/li&gt;&lt;li&gt;IAM&lt;/li&gt;&lt;li&gt;Bucket policies&lt;/li&gt;&lt;li&gt;ACCs - legacy&lt;/li&gt;&lt;li&gt;S3 access points&lt;/li&gt;&lt;li&gt;Pre assigned URLs&lt;/li&gt;&lt;li&gt;AWS Trusted advisor&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;S3 Inventory&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Sacans data and gives alerts in some cases&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3 General vays of configuring&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Default&lt;/li&gt;&lt;ul&gt;&lt;li&gt;by default, all is protected&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Access policy applied&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Conf to give access&lt;/li&gt;&lt;li&gt;Owner will do&lt;/li&gt;&lt;li&gt;user is granted&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Public access&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Security is disabled&lt;/li&gt;&lt;li&gt;all have access - DANGER!&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" vertex="1" parent="wOVYKrJNmB9qR2LeFTkK-19">
+          <mxGeometry x="40.5" width="380" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="wOVYKrJNmB9qR2LeFTkK-22" value="" style="group" vertex="1" connectable="0" parent="wOVYKrJNmB9qR2LeFTkK-25">
+          <mxGeometry x="460" y="710" width="570" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="wOVYKrJNmB9qR2LeFTkK-21" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;container=1;arcSize=16;" vertex="1" parent="wOVYKrJNmB9qR2LeFTkK-22">
+          <mxGeometry width="570" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="wOVYKrJNmB9qR2LeFTkK-20" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;Apply the AWS well architected framework principles to S3&lt;/font&gt;&lt;div style=&quot;text-align: left; font-size: 12px;&quot;&gt;Security&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 12px;&quot;&gt;&lt;ul&gt;&lt;li&gt;Encryption at rest&lt;/li&gt;&lt;li&gt;Enforce access control&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 12px;&quot;&gt;Best Practises&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 12px;&quot;&gt;&lt;ul&gt;&lt;li&gt;Realize potential&lt;/li&gt;&lt;li&gt;Factor cost into architectural desicions&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 12px;&quot;&gt;Cost optimation&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 12px;&quot;&gt;&lt;ul&gt;&lt;li&gt;Cost analysis for different usage&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;container=0;" vertex="1" parent="wOVYKrJNmB9qR2LeFTkK-22">
+          <mxGeometry x="80" width="410" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="wOVYKrJNmB9qR2LeFTkK-11" value="" style="group" vertex="1" connectable="0" parent="wOVYKrJNmB9qR2LeFTkK-25">
+          <mxGeometry x="1030" y="710" width="461" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="wOVYKrJNmB9qR2LeFTkK-10" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;container=0;arcSize=16;" vertex="1" parent="wOVYKrJNmB9qR2LeFTkK-11">
+          <mxGeometry width="461" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="wOVYKrJNmB9qR2LeFTkK-4" value="Storing content with S3&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 12px;&quot;&gt;Different types of object storage classes&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 12px;&quot;&gt;&lt;ul&gt;&lt;li&gt;Variety in no of access into AZ&lt;/li&gt;&lt;li&gt;Vary in minimum capacity charge&lt;/li&gt;&lt;li&gt;Vary in minimum storage duration&lt;/li&gt;&lt;li&gt;Retrieval is not available in all&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;S3 Lifecycle configuration&lt;/div&gt;&lt;div&gt;In S3 you can Automatize the lifecycle of data&lt;/div&gt;&lt;div&gt;eg. back up schema -&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;unused log data removal&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;S3 versioning - by default is disabled&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;needs to be explicitly enabled&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;No cost, but from the storage space requires&lt;/li&gt;&lt;li&gt;not a replacement for backups&lt;/li&gt;&lt;li&gt;each version has a separate id&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;CORS&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Cross-origin resource sharing&lt;/div&gt;&lt;div&gt;Enables web applications in one domain to interact with recourses in another domain. A server can specify who can access its resources&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;S3 Data Consistency model&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Difference between - consistent/Eventually consistent&lt;/li&gt;&lt;li&gt;Simplifies migration of on-premises analytics workloads&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" vertex="1" parent="wOVYKrJNmB9qR2LeFTkK-11">
+          <mxGeometry x="50.5" y="30" width="360" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="wOVYKrJNmB9qR2LeFTkK-24" value="" style="group" vertex="1" connectable="0" parent="wOVYKrJNmB9qR2LeFTkK-25">
+          <mxGeometry x="1149" y="370" width="270" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="JYpF7NDxPvWHbW9yyKpU-19" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="wOVYKrJNmB9qR2LeFTkK-24" vertex="1">
+          <mxGeometry width="270" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="JYpF7NDxPvWHbW9yyKpU-15" value="&lt;span style=&quot;font-size: 12px; background-color: initial;&quot;&gt;Spikes in Demand&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;ul&gt;&lt;li&gt;Scales as spikes occur&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Static sites&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;As websites&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Financial analysis&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Raw data that other services use for analysis&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Disaster rec&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Data backup and disaster recovery&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="wOVYKrJNmB9qR2LeFTkK-24" vertex="1">
+          <mxGeometry x="40" y="20" width="190" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="JYpF7NDxPvWHbW9yyKpU-13" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;Using S3&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="wOVYKrJNmB9qR2LeFTkK-24" vertex="1">
+          <mxGeometry x="27.5" width="215" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
